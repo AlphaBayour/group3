@@ -1,0 +1,692 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+span {
+    color: red;
+}
+.menu ul {
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-right: 30px;
+    list-style: none;
+}
+    
+
+.menu ul > li {
+    
+}
+
+.menu ul > li > a {
+
+    
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+    padding: 12px;
+    border-radius: 20px;
+    border:
+
+}
+
+.menu ul > li:hover a{
+    
+    color: black;
+    background: white; 
+    
+}
+
+
+
+
+
+.group-three-meal h2{   
+    
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+    position: relative;
+    top: 46px;
+    left: 15px;
+   
+    
+}
+
+.group-three-meal .BG{
+    width: 120px;
+    height: 150px;
+    border-radius: 50%;
+    background: gold;
+    position: relative;
+    top: -5px;
+}
+
+
+
+/* Hero Images */
+
+
+.hero{
+    
+    
+    background-image: url(images.jpeg);
+    opacity: 0.6;
+    background-color: white;
+    
+}
+
+.hero img{
+    
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 50%;
+    
+    
+}   
+
+
+/* First Button */
+
+
+.first-button{
+    
+    text-align: center;
+    
+    position: relative;
+    top: -130px;
+   
+    
+}
+
+
+button{
+    
+    width: 230px;
+    height: 50px;
+    
+    
+    
+    background-image: url(logo.jpeg);
+    
+    box-shadow: 1px 2px 0px -1px rgba(12,41,5,1);
+    
+    border-radius: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+button>p{
+    
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+    display: inline-block; 
+    
+    position: relative;
+    top: 10px;
+    left: 30px;
+    transition-delay: .5s;
+    
+}
+
+button>i{
+    
+    color: black ;
+    font-size: 20px;
+    position: relative;
+    left: -130px;
+    top: 10px;
+    transition: 1s;
+    transition-timing-function: cubic-bezier(1, 0.01, 0.07, 0.97);
+}
+
+button:hover i{
+    
+    transform: translateX(80px);
+}
+
+button:hover p{
+    
+    visibility: hidden;
+}
+
+/* Slogan */
+
+
+.jumbotron{  
+    
+  color: red;  
+    
+}
+
+
+
+
+/* Paragraph */
+
+.paragraph{
+    
+    background:black;
+}
+
+.paragraph img{
+    
+    position: relative;
+    top: -149px;
+    left: -116px;
+    width: 400px;
+    transform: rotate(45deg); 
+    border-radius: 10%;
+}
+
+.paragraph p{
+    
+    margin-top: 40px;
+    
+    padding: 10px;
+    font-size: 20px;
+    
+    font-family: poppins, cursive;
+    text-align: justify;
+    color: white;
+}
+
+
+
+/* Our Story */
+
+
+.our-story{
+    
+    background: limegreen;
+    color: grey;
+}
+
+
+.gallery{
+    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    
+    padding: 20px;
+}
+
+.items{
+    
+    flex: 2 0 30%
+}
+
+.item1{
+    
+    flex: 1 0 70%;
+}
+
+.item2{
+    
+    flex: 1 0 40%;
+}
+
+.item3{
+    
+    flex: 1 0 40%;
+}
+
+
+.our-story .Story{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+    position: relative;
+    top: -40px;
+    
+}
+
+.our-story .Story img{
+    
+    width: 150px;
+    position: relative;
+    top: 50px;
+    
+    
+}
+
+
+.our-story .Story h1{
+    
+    color: white;
+    
+    
+}
+
+.our-story .Story p{
+    
+    color: white;
+    
+}
+
+
+/* Our Chefs */
+
+
+.Our-Chefs-BG{
+    
+    background: #086972;
+}
+
+.our-chefs{
+   text-align: center;
+   font-size: 30px;
+   margin-top: 30px;
+   font-family: Ubuntu, cursive;
+    color: white;
+}
+
+
+.Chefs-Info{
+    
+    
+    
+}
+
+.Chefs-Info img{    
+    
+    border-radius: 50%;
+    padding: 100px;
+    
+    
+}
+
+.Chefs-Info h1{
+   
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -70px;
+    
+}
+
+.Chefs-Info h2{
+   
+    font-size: 15px;
+    text-align: center;
+    color: gray;
+    position: relative;
+    top: -70px;
+    
+}
+
+
+/* Our Forms and Maps */
+
+
+.Our-Form{
+    
+    padding: 35px;
+    background: #F4F4F4;
+}
+
+.Our-Form input{
+    
+    margin-top: 5px;
+}
+
+.Our-Form textarea{
+    margin-top: 5px;
+}
+
+.Our-Form .btn{
+    
+    width: 180px;
+    background: #071a52; 
+}
+
+
+.Maps iframe{
+   
+   
+    height: 410px;   
+    
+}
+
+/* Social Media */
+
+
+.Social-Media{
+    
+    overflow: hidden;
+    background: limegreen;
+}
+
+
+.Style{
+    
+    
+    
+    background: #071a52;  
+    
+    transform: skewX(-45deg);    
+    position: relative;
+    left: -160px;
+}
+
+
+.Social_Icons{
+    
+    background: black;
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+
+.Social_Icons>ul{
+    
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Social_Icons>ul>li{
+    
+    padding: 10px;
+}
+
+.Social_Icons>ul>li>a{
+    
+    font-size: 40px;
+    color: white;
+    
+}
+
+
+
+
+/******************** Responsive CSS **********************/
+
+@media only screen and (max-width: 1920px) {
+
+    .menu ul {
+
+        margin-top: -100px;
+
+
+    }
+
+
+} /* #End 1920px */
+
+
+
+@media only screen and (max-width: 1024px) {
+
+    .menu ul {
+
+        margin-top: -100px;
+
+
+    }
+
+
+} /* #End 1024px */
+
+
+@media only screen and (max-width: 768px) {
+
+    .menu ul {
+
+        margin-top: 40px;
+        flex-direction: column;
+
+
+    }
+
+    .menu ul > li > a {
+
+        line-height: 50px;
+
+    }
+
+    .first-button {
+
+        text-align: center;
+
+
+    }
+    
+    button{
+    
+    width: 200px;
+    height: 40px;
+        
+    }
+    
+    button>p{
+        
+    position: relative;
+    top: 5px;
+    left: 30px;
+    }
+    
+    button>i{
+        
+    left: -120px;
+    top: 5px;
+    }
+    
+    button:hover i{
+    
+    transform: translateX(70px);
+}
+    
+    .gallery{
+        
+        margin-top: 40px;
+        padding: 10px;
+    }
+    
+    
+    .Chefs-Info img{    
+    
+    padding: 50px;    
+    
+}
+    
+.Chefs-Info h1{
+   
+    
+    position: relative;
+    top: -50px;
+    
+}
+
+.Chefs-Info h2{
+   
+    font-size: 15px;
+    text-align: center;
+    color: #F4F4F4;
+    position: relative;
+    top: -50px;
+    
+}
+
+
+
+} /* #End 768px */
+
+
+@media only screen and (max-width: 600px){
+    
+    .paragraph img{
+    
+    position: relative;
+    top: -149px;
+    left: -4px;
+    
+    width: 400px;
+    
+    transform: rotate(45deg); 
+}
+    
+    
+    
+    
+} /* End 600px */
+
+
+@media only screen and (max-width: 576px){
+    
+    
+    .paragraph img{
+    
+    position: relative;
+    top: -109px;
+    left: -10px;
+    
+    
+    
+}
+    
+    .Maps{
+        
+        margin-top: 5px;
+    }
+    
+    
+    
+    
+    .Style{   
+    
+    position: relative;
+    left: -155px;
+    transform: skewX(-55deg);    
+}
+    
+    .Social_Icons{
+    
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+    
+    
+    
+} /* #End 576px */
+
+
+@media only screen and (max-width: 460px){
+   
+ .hot-dish h2{   
+    
+    position: relative;
+    top: 46px;
+    left: 42px;
+   
+    
+}
+
+.hot-dish .BG{
+    
+    position: relative;
+    top: 5px;
+    left: -50px;
+}   
+    
+    
+} /* #End 460px */
+
+@media only screen and (max-width: 320px){
+    
+    
+      
+    
+    .hot-dish h2{   
+    
+    
+    position: relative;
+    top: 40px;
+    left: 53px;
+   
+    
+}
+
+.hot-dish .BG{
+    
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #071a52;
+    margin-left: -10px;
+}
+    
+    .paragraph img{
+    
+    position: relative;
+    top: -62px;
+    left: -33px;
+    
+    width: 350px;
+    
+    transform: rotate(45deg); 
+}
+    
+    .Our-Form .btn{
+    
+    width: 100px;
+     
+}
+    
+    .Style{
+    
+    
+    
+     
+    
+    transform: skewX(-45deg);    
+    position: relative;
+    left: -84px;
+}
+    
+    .Social_Icons{
+    
+    background: black
+    position: relative;
+    top: 10px;
+    left: -60px;
+}
+    
+    
+} /* #End 320px */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

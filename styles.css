@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    panding: 0px;
+}
+
+
+h1{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+h3{
+    text-align: center;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    color: white;
+}
+h4{
+    text-align: center;
+    font-size: 40px;
+    color: white
+}
+h5 {
+    color: red;
+    text-align:center;
+    font-size: 50px;
+}
+h6 { font-size: 30px;
+text-align: center;
+font-weight: 1em;
+font-style: draggble="true";
+}
+
+}
+span {
+    color: red;
+}
+
+.video {
+    align-items: center;
+}
